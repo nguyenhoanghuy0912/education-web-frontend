@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="../project/style.css">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <section class="flex">
+
+      <a href="home.html" class="logo">Education</a>
+
+      <form action="search.html" method="post" class="search-form">
+        <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+        <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="user-btn" class="fas fa-user"></div>
+        <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+        <img src="./img/pic-1.jpg" class="image" alt="">
+        <h3 class="name">Nguyen Hoang Huy</h3>
+        <p class="role">student</p>
+        <a href="profile.html" class="btn">view profile</a>
+        <div class="flex-btn">
+          <a href="login.html" class="option-btn">login</a>
+          <a href="register.html" class="option-btn">register</a>
+        </div>
+      </div>
+
+    </section>
+
+  </header>
+
+  <div class="side-bar">
+
+    <div id="close-btn">
+      <i class="fas fa-times"></i>
+    </div>
+
+    <div class="profile">
+      <img src="./img/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Nguyen Hoang Huy</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">view profile</a>
+    </div>
+
+    <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact</span></a>
+    </nav>
+
+  </div>
+
+  <section class="home-grid">
+
+    <h1 class="heading">quick options</h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3 class="title">likes and comments</h3>
+        <p class="likes">total likes : <span>25</span></p>
+        <a href="#" class="inline-btn">view likes</a>
+        <p class="likes">total comments : <span>12</span></p>
+        <a href="#" class="inline-btn">view comments</a>
+        <p class="likes">saved playlists : <span>4</span></p>
+        <a href="#" class="inline-btn">view playlists</a>
+      </div>
+
+      <div class="box">
+        <h3 class="title">top categories</h3>
+        <div class="flex">
+          <a href="#"><i class="fas fa-code"></i><span>development</span></a>
+          <a href="#"><i class="fas fa-chart-simple"></i><span>business</span></a>
+          <a href="#"><i class="fas fa-pen"></i><span>design</span></a>
+          <a href="#"><i class="fas fa-chart-line"></i><span>marketing</span></a>
+          <a href="#"><i class="fas fa-music"></i><span>music</span></a>
+          <a href="#"><i class="fas fa-camera"></i><span>photography</span></a>
+          <a href="#"><i class="fas fa-cog"></i><span>software</span></a>
+          <a href="#"><i class="fas fa-vial"></i><span>science</span></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="title">popular topics</h3>
+        <div class="flex">
+          <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+          <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+          <a href="#"><i class="fab fa-js"></i><span>javascript</span></a>
+          <a href="#"><i class="fab fa-react"></i><span>react</span></a>
+          <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+          <a href="#"><i class="fab fa-bootstrap"></i><span>bootstrap</span></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="title">become a tutor</h3>
+        <p class="tutor">Our tutors are teachers, professors, adjuncts, PhD students, and industry professionals who are
+          all passionate to help students learn.</p>
+        <a href="teachers.html" class="inline-btn">get started</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="courses">
+
+    <h1 class="heading">our courses</h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-2.jpg" alt="">
+          <div class="info">
+            <h3>Vu Dieu Huong</h3>
+            <span>21-10-2022</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-1.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">HTML tutorial</h3>
+        <a href="../project/playlistHTML.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-3.jpg" alt="">
+          <div class="info">
+            <h3>Vu Dieu Huong</h3>
+            <span>11-09-2021</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-2.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">CSS tutorial</h3>
+        <a href="../project/playlistCSS.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-4.jpg" alt="">
+          <div class="info">
+            <h3>Vu Dieu Huong</h3>
+            <span>05-11-2022</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-3.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">JS tutorial</h3>
+        <a href="../project/playlistJS.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-5.jpg" alt="">
+          <div class="info">
+            <h3>Nguyen Thi Ha</h3>
+            <span>01-10-2022</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-4.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">Boostrap tutorial</h3>
+        <a href="../project/playlistBoostrap.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-6.jpg" alt="">
+          <div class="info">
+            <h3>Pham Quang Truong</h3>
+            <span>09-12-2021</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-5.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">JQuery tutorial</h3>
+        <a href="../project/playlistJquuery.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+        <div class="tutor">
+          <img src="./img/pic-7.jpg" alt="">
+          <div class="info">
+            <h3>Nguyen Thi Huyen Trang</h3>
+            <span>19-3-2020</span>
+          </div>
+        </div>
+        <div class="thumb">
+          <img src="./img/thumb-6.png" alt="">
+          <span>10 videos</span>
+        </div>
+        <h3 class="title">SASS tutorial</h3>
+        <a href="../project/playlistSASS.html" class="inline-btn">view playlist</a>
+      </div>
+
+    </div>
+
+    <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view all courses</a>
+    </div>
+
+  </section>
+
+  <div class="footer">
+    <div class="wrapper">
+      <div class="footer-box1">
+        <div class="header-ads">
+          <a href="/vi/"><img src="//tmu.cdn.gate.edu.vn/uploads/tmu/logo-footer.jpg?t=1663234608" /></a>
+        </div>
+        <div class="copyright">
+          <strong>University 1</strong>
+          <div class="address">
+            <p>Address: 79 Ho Tung Mau, Cau Giay, Ha Noi</p>
+            <p> Phone: (024) 37643219</p>
+            <p>Fax: (024) 37643228 </p>
+            <p> Email: mail@tmu.edu.vn</p>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <strong>University 2</strong>
+          <p>Address: Ly Thuong Kiet, phuong Le <br> Hong Phong, Phu Ly, Ha Nam</p>
+          <p>Phone: (024) 3764 3219</p>
+          <p>Fax: (024) 37643228</p>
+          <p>Email: mail@tmu.edu.vn</p>
+        </div>
+      </div>
+
+
+      <div class="footer-box2">
+        <div class="ft-box2-title">External links</div>
+        <ul>
+          <li>
+            <a href="http://www.chinhphu.vn/">
+              <i class="fa-solid fa-circle-plus"></i>
+              Government Portal
+            </a>
+          </li>
+          <li>
+            <a href="http://www.moet.gov.vn/Pages/home.aspx">
+              <i class="fa-solid fa-circle-plus"></i>
+              Ministry of Education and Training
+            </a>
+          </li>
+          <li>
+            <a href="http://www.moit.gov.vn/vn/Pages/Trangchu.aspx">
+              <i class="fa-solid fa-circle-plus"></i>
+              Ministry of Industry and Trade
+            </a>
+          </li>
+          <li>
+            <a href="http://edu.net.vn/media/">
+              <i class="fa-solid fa-circle-plus"></i>
+              Educational Resources
+            </a>
+          </li>
+          <li>
+            <a href="https://hocthenao.vn/">
+              <i class="fa-solid fa-circle-plus"></i>
+              How to Learn
+            </a>
+          </li>
+          <li>
+            <a href="http://www.classbase.com/Countries/Vietnam/Universities/Dai-hoc-Thuong-mai-21578">
+              <i class="fa-solid fa-circle-plus"></i>
+              Commercial University on ClassBase
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-box3">
+        <div class="contact">
+          <div class="title_contact">Contact</div>
+          <div class="linked">
+            <a href="http://tmu.edu.vn/vi/contact/">Contact to us</a>
+          </div>
+        </div>
+
+        <ul class="social">
+          <li>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-link" href="https://www.facebook.com/thuongmaiuniversity/">Facebook</a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa-brands fa-google"></i></a>
+            <a class="text-link" href="https://plus.google.com/110330226327788492035/">Google Plus</a>
+          </li>
+
+          <li>
+            <a href=""> <i class="fa-brands fa-twitter"></i></a>
+            <a class="text-link" href="https://www.twitter.com/ThuongMaiU/">Twitter</a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a class="text-link" href="https://www.youtube.com/channel/UC9-NJM8V8oXewEIfPHica_Q">Youtube</a>
+          </li>
+
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="text-link" href="https://www.instagram.com/thuongmaiuniversity/">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- custom js file link  -->
+  <script src="../project/script.js"></script>
+
+
+</body>
+
+</html>
